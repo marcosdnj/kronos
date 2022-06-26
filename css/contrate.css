@@ -1,0 +1,70 @@
+.contrate {
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 50px auto auto auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.contrate h2{
+    font-size: 8rem;
+    text-transform: uppercase;
+    line-height: 1;
+    word-break:break-all ;
+    max-width: 3ch;
+    text-align: end;
+    color: #e0e0e0;
+}
+.contrate h3{
+    font-size: 2rem;
+    text-align: center;
+    color: #00db00;
+    padding: 0px;
+    margin: 10px;
+}
+
+.contrate-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px 20px;
+    background: #f5f5f5;
+}
+
+.contrate-form p{
+    font-size: 1.25rem;
+    line-height: 1.4;
+    font-size: 1.25rem;
+    text-align: center;
+}
+.contrate-form label{
+    margin-top: 5px;
+    line-height: 1.2;
+    font-size: 1.125rem;
+}
+.contrate-form input,select{
+    padding: 10px 10px;
+    border: 1px solid #e0e0e0;
+    font-size: 1.125rem;
+}
+.contrate-form button{
+    margin-top: 15px;
+    padding: 10px 10px;
+    border: none;
+    color: #e0e0e0;
+    background: #00db00;
+    font-size: 1.125rem;
+}
+
+@media(max-width: 700px){
+    .contrate {  
+        grid-template-columns: 1fr;
+        gap: 10px;
+        }
+    .contrate h2{
+        word-break: normal;
+        max-width: 50ch;
+        text-align: center;
+        font-size: 3.5rem;
+    }
+}
