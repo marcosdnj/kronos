@@ -44,6 +44,7 @@
 .beneficios-introducao li:hover{
     background-color: #00db00 ;
     color: #2e323b;
+    cursor: default;
 }
 
 
